@@ -2,7 +2,7 @@
     <div class="container has-text-centered">
         <p>
             <strong><a href="https://github.com/FabriCommunity/fabricommunity.github.io/">
-                Made with &hearts; by The Fabric Community.</a></strong>
+                    Made with &hearts; by The Fabric Community.</a></strong>
         </p>
         <p>
             This website and its content is licensed under the
@@ -20,6 +20,15 @@
         <p>
             The Fabric Community is an unofficial third-party community. We are not affiliated with
             <a href="https://fabricmc.net"> the Fabric project</a>.
+        </p>
+        <hr>
+        <p>
+            <h3 class="footer-padder-s">Links</h3>
+            <a href="https://discord.gg/X4YYb96Aj5" target="_blank" class="button is-medium is-discord is-outlined">
+                <span class="icon">
+                  <i class="fa fa-discord fa-lg"></i>
+                </span>
+            </a>
         </p>
     </div>
 </footer>

@@ -1,0 +1,15 @@
+/**
+    Main logo found on index.html.peb
+**/
+.index-icon {
+    width: 125px;
+    height: auto;
+    image-rendering: pixelated;
+}
+
+/**
+    Footer Related
+**/
+.footer-padder-s {
+    margin-bottom: 5px;
+}
