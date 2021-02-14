@@ -24,6 +24,7 @@ intentionally or repeatedly break the above requirement. This is non-negotiable.
 The Fabricomm Site also makes use of some other projects:
 
 * [Bulma](https://bulma.io) (the CSS framework) is licensed under the [MIT License](/LICENSE-BULMA).
+* [Bulma Socials](https://github.com/aldi/bulma-social/) is licensed under the [MIT License](https://github.com/aldi/bulma-social/blob/master/LICENSE)
 * [Prism](https://prismjs.com/) (the syntax highlighter) is licensed under the [MIT License](/LICENSE-PRISM).
 
 These projects do not belong to us - they're the property of their respective license holders.
