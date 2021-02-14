@@ -3,7 +3,7 @@ if [ ! -f SSG.jar ]; then
 fi
 
 java -jar SSG.jar build \
-    --default-template index \
+    --default-template section/index \
     --output-path build \
     --sources-path site \
     --template-path templates \
