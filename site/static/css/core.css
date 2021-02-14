@@ -13,3 +13,12 @@
 .footer-padder-s {
     margin-bottom: 5px;
 }
+
+/**
+    Sidebar Related
+**/
+@media screen and (max-width: 768px) {
+    #menu-toggle:checked + .nav-menu {
+      display: block;
+    }
+  }

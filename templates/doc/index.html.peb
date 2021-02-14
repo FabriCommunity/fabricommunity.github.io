@@ -1,0 +1,12 @@
+{% extends './base.html.peb' %}
+
+{% block main %}
+    {% include "./sidebar.html.peb" %}
+    {% block content %}
+        <main class="container">
+            <div class="content">
+                {{ body | raw }}
+            </div>
+        </main>
+    {% endblock %}
+{% endblock %}
