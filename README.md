@@ -81,24 +81,27 @@ navigation should be structured. It consists of a set of navigation nodes, with 
 nodes:
   - title: "One"
     path: "/one"
+    icon: "globe"
 
   - title: "Two"
     path: "/two"
+    icon: "arrow-right"
 
     children:
       - title: "Three"
         path: "/two/three"
+        icon: "car"
 ```
 
 Each node has the following properties:
 
-* **Required:** `title` - The name of the navigation node that's shown on the site.
+* **Required:** `icon` - The name of a font-awesome icon (including pro icons) to use for this navigation node.
 * **Required:** `path` - The absolute path of the document this node should take you to when clicked. This may be the
   path to a document, a static file (in `/static`), or a full URL (eg `https://google.com`). If you're referring to a
   document in the current section, **you should always use an absolute path that matches the url**.
+* **Required:** `title` - The name of the navigation node that's shown on the site.
 * Optional: `children` - Other nodes that should be placed within this node.
-* Optional: `description` - A short description describing where this node points at. **Note:** This is not used within
-  section navigations, only in the site root.
+* Optional: `description` - A short description describing where this node points at.
 
 ### Conventions and tips
 
@@ -158,10 +161,15 @@ for re-use of HTML, which helps to keep the repository clean and easy to underst
 
 The following variables are available to all Pebble templates, including in Markdown files:
 
-* `navigation` - a Navigation `Root` object, containing the `currentPath` string, and a variable number of `nodes`.
-  Nodes are `Node` objects, which contain `path` and `title` properties, and optionally may themselves contain a
-  nullable `description` property, or their own `children` (which are also `Node` objects). If a section (or the site 
-  root) doesn't have a `navigation.yml`, then `nodes` will be an empty list.
+* `navigation` - a Navigation `Root` object, containing the following properties:
+    * `currentPath` - A string representing the path to the current file.
+    * `nodes` - A list of navigation `Node` objects, with the following properties:
+        * `icon` - The name of the icon to use for this navigation node.
+        * `path` - A string representing the path to navigate to, which may be a URL.
+        * `title` - The name to display on the page.
+        * `children` - A set of `Node` objects which should be placed under this one.
+
+If a section (or the site root) doesn't have a `navigation.yml`, then `nodes` will be an empty list.
 
 The following variables are available to Pebble templates within the `templates` folder only:
 
