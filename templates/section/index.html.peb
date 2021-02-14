@@ -1,6 +1,6 @@
 {% extends '../base.html.peb' %}
 
-{% block title %}{{ meta.title }}{{% endblock %}}
+{% block title %}{{ meta.title }}{% endblock %}
 
 {% block main %}
     {% include "./sidebar.html.peb" %}
