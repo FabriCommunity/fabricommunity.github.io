@@ -7,6 +7,6 @@ java -jar SSG.jar build \
     --output-path build \
     --sources-path site \
     --template-path templates \
-    --section doc
+    --section docs
 
 cp -R site/static build/static
