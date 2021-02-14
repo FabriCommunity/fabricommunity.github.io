@@ -1,11 +1,12 @@
 <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
     <p class="menu-label is-hidden-touch">Navigation</p>
     <ul class="menu-list">
-        {% for node in navigation %}
-            {% if node.children != null %}
-            /// Multilevel Stuff
+        {% for node in navigation.nodes %}
+            {% if node.children == null %}
+            <li><a href="{{ node.path }}">{{ node.title }}</a></li>
             {% else %}
             <li><a href="{{ node.path }}">{{ node.title }}</a></li>
+            {% endif %}
         {% else %}
             <p> There are no articles. </p>
         {% endfor %}

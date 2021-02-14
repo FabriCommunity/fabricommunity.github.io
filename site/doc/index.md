@@ -1,5 +1,6 @@
 ---
 title: Docs
+template: doc/index
 ---
 
 # Doc header!

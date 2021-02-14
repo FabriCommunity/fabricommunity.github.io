@@ -20,6 +20,5 @@
 
 {% endblock %}
 
-{% include './footer.html.peb' %}
 </body>
 </html>
