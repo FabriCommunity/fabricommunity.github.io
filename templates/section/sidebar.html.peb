@@ -1,9 +1,9 @@
-<aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+<aside class="sidebar column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
     <p class="menu-label is-hidden-touch">Navigation</p>
     <ul class="menu-list">
         {% for node in navigation.nodes %}
             {% if node.children == null %}
-            <li><a href="{{ node.path }}">{{ node.title }}</a></li>
+            <li><a href="{{ node.path }}"><i class="{{ node.icon }}"></i> {{ node.title }}</a></li>
             {% else %}
             <li><a href="{{ node.path }}">{{ node.title }}</a></li>
             {% endif %}

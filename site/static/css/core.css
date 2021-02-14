@@ -21,4 +21,8 @@
     #menu-toggle:checked + .nav-menu {
       display: block;
     }
-  }
+}
+
+.sidebar {
+    background-color: hsl(0, 0%, 96%);
+}

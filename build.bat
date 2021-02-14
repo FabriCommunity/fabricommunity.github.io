@@ -12,10 +12,3 @@ java -jar SSG.jar build^
     --section docs
 
 xcopy site\static build\static /E/I/Q
-
-echo %cmdcmdline% | findstr /i /c:"%~nx0" >NUL 2>&1 && set standalone=1
-
-if defined standalone (
-    echo.
-    PAUSE
-)

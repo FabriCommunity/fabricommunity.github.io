@@ -23,10 +23,9 @@
         </p>
         <hr>
         <p>
-            <h3 class="footer-padder-s">Links</h3>
             <a href="https://discord.gg/X4YYb96Aj5" target="_blank" class="button is-medium is-discord is-outlined">
                 <span class="icon">
-                  <i class="fa fa-discord fa-lg"></i>
+                    <i class="fab fa-discord fa-lg"></i>
                 </span>
             </a>
         </p>

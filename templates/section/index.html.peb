@@ -4,7 +4,7 @@
     {% include "./sidebar.html.peb" %}
 
     {% block content %}
-        <main class="container">
+        <main class="container column is-10">
             <div class="content">
                 {{ body | raw }}
             </div>

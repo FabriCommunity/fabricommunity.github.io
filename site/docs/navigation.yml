@@ -1,4 +1,4 @@
 nodes:
   - title: "Fabric Community Documentation"
-    path: "/doc/"
-    icon: ""
+    path: "/docs/"
+    icon: "fad fa-home"
