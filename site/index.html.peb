@@ -1,60 +1,62 @@
-{% extends './base.html.peb' %}
+    {% extends './base.html.peb' %}
 
-{% block title %}Home{% endblock %}
+        {% block title %}Home{% endblock %}
 
-{% block main %}
-<section class="hero">
-    <div class="hero-body has-text-centered">
-        <img src="/static/images/logo.png" class="index-icon" />
-        <p class="title">
-            The Fabric Community
-        </p>
-        <hr>
-        <p class="subtitle">
-            The friendly, safe, diverse community for Fabric mod-loader users and developers.
-        </p>
-    </div>
-</section>
-
-<main>
-    <section class="section">
-        <div class="container">
-            <p>
-                The Fabric Community is an unofficial community that provides a safe, friendly environment for people of
-                all backgrounds to get together, socialize, talk about Fabric, and create Fabric mods.
+    {% block main %}
+    <section class="hero">
+        <div class="hero-body has-text-centered">
+            <img src="/static/images/logo.png" class="index-icon"/>
+            <p class="title">
+                The Fabric Community
             </p>
-
-            <p>
-                <strong>Please note:</strong> This site is under heavy development right now. Anything you find here at
-                the moment is simply a styling idea.
+            <hr>
+            <p class="subtitle">
+                The friendly, safe, diverse community for Fabric mod-loader users and developers.
             </p>
-
-            <p>
-                &nbsp;
-            </p>
-
-            <div class="tile is-ancestor">
-                <div class="tile is-6 is-vertical is-parent">
-                    <a href="" class="tile is-child notification is-primary">
-                        Section 1
-                    </a>
-
-                    <a href="" class="tile is-child notification is-success">
-                        Section 2
-                    </a>
-                </div>
-                <div class="tile is-6 is-vertical is-parent">
-                    <a href="" class="tile is-child notification is-light">
-                        Section 3
-                    </a>
-
-                    <a href="" class="tile is-child notification is-dark">
-                        Section 4
-                    </a>
-                </div>
-            </div>
         </div>
     </section>
-</main>
-{% include './footer.html.peb' %}
-{% endblock %}
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <p>
+                    The Fabric Community is an unofficial community that provides a safe, friendly environment for
+                    people of
+                    all backgrounds to get together, socialize, talk about Fabric, and create Fabric mods.
+                </p>
+
+                <p>
+                    <strong>Please note:</strong> This site is under heavy development right now. Anything you find here
+                    at
+                    the moment is simply a styling idea.
+                </p>
+
+                <p>
+                    &nbsp;
+                </p>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-6 is-vertical is-parent">
+                        <a href="" class="tile is-child notification is-primary">
+                            Section 1
+                        </a>
+
+                        <a href="" class="tile is-child notification is-success">
+                            Section 2
+                        </a>
+                    </div>
+                    <div class="tile is-6 is-vertical is-parent">
+                        <a href="" class="tile is-child notification is-light">
+                            Section 3
+                        </a>
+
+                        <a href="" class="tile is-child notification is-dark">
+                            Section 4
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% include './footer.html.peb' %}
+    {% endblock %}

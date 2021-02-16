@@ -4,7 +4,8 @@ title: Fabric Community Documentation
 
 # Fabric Community Documentation
 
-Welcome to the Fabric Community Documentation. The documentation are open sourced markdown-based documentation that can help you learn how to utilize the Fabric Modloader and community made libraries to make your mod!
+Welcome to the Fabric Community Documentation. The documentation are open sourced markdown-based documentation that can
+help you learn how to utilize the Fabric Modloader and community made libraries to make your mod!
 
 ## Where can I start?
 

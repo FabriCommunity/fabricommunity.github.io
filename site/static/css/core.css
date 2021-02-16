@@ -19,7 +19,7 @@
 **/
 @media screen and (max-width: 768px) {
     #menu-toggle:checked + .nav-menu {
-      display: block;
+        display: block;
     }
 }
 

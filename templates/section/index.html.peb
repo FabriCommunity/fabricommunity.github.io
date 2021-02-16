@@ -1,15 +1,15 @@
-{% extends '../base.html.peb' %}
+    {% extends '../base.html.peb' %}
 
-{% block title %}{{ meta.title }}{% endblock %}
+        {% block title %}{{ meta.title }}{% endblock %}
 
-{% block main %}
-    {% include "./sidebar.html.peb" %}
+    {% block main %}
+        {% include "./sidebar.html.peb" %}
 
-    {% block content %}
+        {% block content %}
         <main class="container column is-10">
             <div class="content">
-                {{ body | raw }}
+                    {{ body | raw }}
             </div>
         </main>
+        {% endblock %}
     {% endblock %}
-{% endblock %}

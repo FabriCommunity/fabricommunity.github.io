@@ -3,12 +3,13 @@
     <ul class="menu-list">
         {% for node in navigation.nodes %}
             {% if node.children == null %}
-            <li><a href="{{ node.path }}"><i class="{{ node.icon }}"></i> {{ node.title }}</a></li>
+                <li><a href="{{ node.path }}"><i class="{{ node.icon }}"></i> {{ node.title }}</a></li>
             {% else %}
-            <li><a href="{{ node.path }}">{{ node.title }}</a></li>
+                {# TODO: Render children #}
+                <li><a href="{{ node.path }}">{{ node.title }}</a></li>
             {% endif %}
         {% else %}
             <p> There are no articles. </p>
         {% endfor %}
     </ul>
-  </aside>
+</aside>
