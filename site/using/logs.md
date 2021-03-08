@@ -3,9 +3,11 @@ title: Uploading Log Files
 ---
 
 # Uploading Log Files
-To provide help, you will have to provide a crash report.
+To get help, you should provide a log file. This file provides essential information to find out why Minecraft has crashed.  
+Please follow the relevant tutorial for the launcher you're using. If you are unsure about this, follow the standard launcher tutorial.
 
 ## Getting the log file
+---
 ### Standard Launcher
 1. **Open the minecraft launcher and go to the "Installations" tab.**  
    [![Installations tab](/static/images/using/logs/vanilla-launcher-open-installations-tab.png)](/static/images/using/logs/vanilla-launcher-open-installations-tab.png)
@@ -21,7 +23,8 @@ To provide help, you will have to provide a crash report.
 2. **You can now simply paste the link MultiMc gives you. It should be on your clipboard already.**
 
 ## Uploading your log file
-Please upload your log to a paste site instead of uploading it directly. Common paste sites include:
+---
+Please **upload your log to a paste site** instead of uploading it directly, this makes it much easier to work with. Common paste sites include:
 * [paste.gg](https://paste.gg/) 1MiB limit, no account needed
 * [paste.ee](https://paste.ee/) 1MiB limit, no account needed
 * [pastebin](https://pastebin.com/) 512KiB limit, no account needed
