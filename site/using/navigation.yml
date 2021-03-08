@@ -1,109 +1,15 @@
 nodes:
   - type: "node"
 
-    title: "Main "
-    path: "/docs"
-    icon: "fas fa-home"
-
-  - type: "node"
-
-    title: "With Spacer"
-    path: "/docs/"
+    title: "Home"
+    path: "/using"
     icon: "fas fa-home"
 
   - type: "spacer"
+    title: "Getting help"
 
   - type: "node"
 
-    title: "With Children"
-    path: "/docs"
-    icon: "fas fa-home"
-
-    children:
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-  - type: "node"
-
-    title: "With Children"
-    path: "/docs/"
-    icon: "fas fa-home"
-
-    children:
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-  - type: "node"
-
-    title: "With Children"
-    path: "/docs/"
-    icon: "fas fa-home"
-
-    children:
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-  - type: "node"
-
-    title: "With Children"
-    path: "/docs/"
-    icon: "fas fa-home"
-
-    children:
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-  - type: "node"
-
-    title: "With Children"
-    path: "/docs/"
-    icon: "fas fa-home"
-
-    children:
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
-
-      - type: "node"
-
-        title: "Child"
-        path: "/docs/"
-        icon: "fas fa-home"
+    title: "Uploading a log file"
+    path: "/using/logs"
+    icon: "fas fa-file"
