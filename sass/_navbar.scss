@@ -1,3 +1,13 @@
+.navbar-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container > section.section {
+    overflow-y: auto;
+}
+
 .navbar .button.is-discord {
   background: none;
   color: black;

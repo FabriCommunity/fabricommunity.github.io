@@ -3,7 +3,7 @@
 {% block title %}{{ meta.title }}{% endblock %}
 
 {% block main %}
-<body class="line-numbers has-navbar-fixed-top">
+<body class="line-numbers">
     <aside class="sidebar" id="sidebar">
         {% include "section/sidebar" %}
     </aside>
@@ -11,7 +11,7 @@
     <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
     {% block content %}
-        <main class="has-sidebar">
+        <main class="has-sidebar navbar-container">
             {% include "section/navbar" %}
 
             <section id="main-content" class="content section">
