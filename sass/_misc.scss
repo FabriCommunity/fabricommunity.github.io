@@ -29,3 +29,7 @@
 .breadcrumb ul li:first-of-type {
   margin-top: 0.25em;
 }
+
+html {
+  overflow-y: auto; // Seemingly removes the ghost scrollbar that appears if the html is not scrollable
+}
