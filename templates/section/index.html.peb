@@ -16,6 +16,20 @@
 
             <section id="main-content" class="content section">
                 {{ body | raw }}
+
+                <footer>
+                    <hr />
+
+                    {% if lastCommit %}
+                        <p class="has-text-centered">
+                            This page was last edited on {{ lastCommit }}
+                        </p>
+                    {% endif %}
+
+                    <p class="has-text-centered">
+                        Website: <strong><a href="https://github.com/FabriCommunity/fabricommunity.github.io/blob/root/LICENSE-CC-BY-NC-SA.md">CC BY-NC-SA</a></strong> | Code examples: <strong><a href="https://github.com/FabriCommunity/fabricommunity.github.io/blob/root/LICENSE-CC0.md">CC0</a></strong> | The Fabric Community is not affiliated with <a href="https://fabricmc.net"> the Fabric project</a>.
+                    </p>
+                </footer>
             </section>
         </main>
     {% endblock %}

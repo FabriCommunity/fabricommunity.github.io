@@ -33,3 +33,7 @@
 html {
   overflow-y: auto; // Seemingly removes the ghost scrollbar that appears if the html is not scrollable
 }
+
+#main-content footer {
+  margin-bottom: 1.5rem;
+}
