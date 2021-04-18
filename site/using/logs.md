@@ -22,7 +22,7 @@ Please follow the relevant tutorial for the launcher you're using. If you are un
    *If you have closed this window, press `edit instance` > `minecraft log` (if this doesn't appear, press `other logs` and select `latest.log`). Here you should find the upload button*
 2. **You can now simply paste the link MultiMc gives you. It should be on your clipboard already.**
 
-##GDLauncher
+### GDLauncher
 1. **Right click the instance and hit the `open folder` and then go into the `logs` folder. [See "uploading the log"](#uploading-your-log-file)**
 
 ## Uploading your log file
