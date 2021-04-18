@@ -31,4 +31,4 @@ Please **upload your log to a paste site** instead of uploading it directly, thi
 * [paste.gg](https://paste.gg/) 1MiB limit, no account needed
 * [paste.ee](https://paste.ee/) 1MiB limit, no account needed
 * [pastebin](https://pastebin.com/) 512KiB limit, no account needed
-* [Github gists](https://paste.ee/) 100MiB limit, account needed
+* [Github gists](https://gist.github.com/) 100MiB limit, account needed
