@@ -23,6 +23,9 @@ The static site generator requires that you have Java 8 or later installed.
 * `serve` - Spin up a simple webserver on localhost to serve the site after you've built it. This will not build it
   automatically - run the `build` script whenever you need to do that. Press `CTRL + C` at any point to stop the server.
 
+If you are using IDEA, you can use the `Run Site` (or `Serve` for Windows) run configuration to generate all the pages 
+and assets, and launch the server all together.
+
 ## As a writer
 
 If you'd simply like to contribute a document or tutorial (or edit one that exists), you can create Markdown files
